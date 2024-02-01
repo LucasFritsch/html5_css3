@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(19, 19, 85);
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    background-color: rgb(7, 7, 39);
+        }
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+        }
+p {
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: large;
+        }
+a {
+            color: rgb(214, 255, 241);
+            font-family: sans-serif;
+        }

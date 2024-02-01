@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Homemade+Apple&display=swap');
+
+body {
+    background-color: #37007A;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+h1#principal {
+    color: #ffff2f;
+    background-color: #22004d;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Gloock', Times, serif;
+    color: #ffff2f;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Gloock', Times, serif;
+    text-align: left;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Homemade Apple', arial, sans-serif;
+    text-align: justify;
+}
+
+.basico {
+    color: #4dff74;
+}
+
+.intermediario {
+    color: #4dafff;
+}
+
+.avancado {
+    color: #ff4d4d;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Adaptáveis</h1>
+    <p>Veja como as imagens abaixo mudam de acordo com o tamanho da tela ou da guia</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/img_g.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/img_m.png" type="image/png">
+        <img src="imagens/img_p.png" alt="Imagem Dinâmica">
+    </picture>
+
+    <h1>Áudios</h1>
+    <p>Abaixo, um áudio reproduzível inserido em HTML5.</p>
+    <audio src="midia/mus_fallendown2.mp3" controls></audio>
+
+    <h1>Áudios Adaptáveis</h1>
+    <p>Apesar de não ser perceptível, o código que programou o áudio abaixo disponibliza três arquivos em diferentes formatos, para que se caso um deles não funcionar no navegador, outro o substitua.</p>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/mus_fallendown2.mp3" type="audio/mpeg">
+        <source src="midia/mus_fallendown2.ogg" type="audio/ogg">
+        <source src="midia/mus_fallendown2.wav" type="audio/wav">
+        <p>Caso seu navegador não suporte áudio, aperte<a href="midia/mus_fallendown2.mp3" download="mus_fallendown2.mp3" type="audio/mpeg">aqui</a>.</p>
+    </audio>
+
+</body>
+</html>
