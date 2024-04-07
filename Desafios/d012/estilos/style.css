@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Importando as fontes */
+
+/* Passion One */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+/* Sriracha */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* Letras iniciais das palavras maiores que as demais */
+h1 span {
+    font-size: 1.4em;
+}
+
+h1 {
+    font-family: 'Passion One';
+    font-size: 8em;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+header p {
+    font-size: 1.6em;
+    padding-bottom: 50px;
+}
+
+header a {
+    font-weight: bold;
+}
+
+header a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+
+/* Configurações aplicadas à todas as estrofes */
+
+
+/* Configurações aplicadas mais de um p dentro da estrofe */
+.semfundo {
+    background-color: white;
+    color: black;
+    font-family: 'Sriracha';
+    font-size: 3em;
+    padding: 50px 30px;
+} 
+
+.comfundo {
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    display: inline-block;
+    font-family: 'Sriracha';
+    font-size: 3em;
+    margin: 20px;
+    padding: 50px 30px;
+}
+
+/* Configurações de imagens de fundo das estrofes */
+#estrofe2 {
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+#estrofe5 {
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: black;
+    max-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Sriracha';
+}
+

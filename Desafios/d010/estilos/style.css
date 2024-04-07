@@ -83,6 +83,7 @@ nav {
 
 nav a {
     border-radius: 5px;
+    color: var(--cor01);
     font-family: var(--fonte03);
     font-weight: bold;
     padding: 10px 10px;
@@ -109,7 +110,6 @@ main {
     max-width: 750px;
     min-width: 300px;
     padding: 10px 20px;
-
 }
 
 main h2 {

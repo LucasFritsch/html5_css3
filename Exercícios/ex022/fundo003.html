@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de Fundos</title>
+    <style>
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            border: solid 2px black;
+            border-radius: 10px;
+            margin: 10px;
+            height: 100px;
+        }
+
+        .semlegenda {
+            background-image: url(midia/imagens/wallpaper002.jpg);
+        }
+
+        #a1 {
+            background-position: top left;
+        }
+
+        #a2 {
+            background-position: bottom left;
+        }
+
+        #a3 {
+            background-position: center center;
+        }
+
+        .comlegenda {
+            background-image: url(midia/imagens/wallpaper003.jpg);
+        }
+
+        #b1 {
+            background-position: top left;
+        }
+
+        #b2 {
+            background-position: bottom left;
+        }
+
+        #b3 {
+            background-position: center center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Imagens sem legenda da posição</h1>
+    <div class="semlegenda" id="a1"></div>
+
+    <div class="semlegenda" id="a2"></div>
+
+    <div class="semlegenda" id="a3"></div>
+
+    <h1>Imagens com legenda da posição</h1>
+    <div class="comlegenda" id="b1"></div>
+
+    <div class="comlegenda" id="b2"></div>
+
+    <div class="comlegenda" id="b3"></div>
+</body>
+</html>
